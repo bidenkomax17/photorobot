@@ -1,0 +1,73 @@
+body
+{
+    background-color: #000000;
+}
+p
+{
+    color: #33ff66;
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+#toptext
+{
+    position: relative;
+    z-index: 4;
+}
+#container
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+.lightning
+{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+#frame
+{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    width: 546px;
+    height: 629px;
+    background-image: url("images/frame.png");
+    z-index: 2;
+    overflow: hidden;
+}
+#picbox
+{
+    position: relative;
+    left: 91px;
+    top: 84px;
+    width: 366px;
+    height: 460px;
+    z-index: 1;
+    overflow: hidden;
+}
+.face
+{
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+#head
+{
+    height: 172px;
+}
+#eyes
+{
+    height: 79px;
+}
+#nose
+{
+    height: 86px;
+}
+#mouth
+{
+    height: 117px;
+}
